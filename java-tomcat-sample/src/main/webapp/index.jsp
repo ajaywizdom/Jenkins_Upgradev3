@@ -4,6 +4,6 @@
   <h3> Hi this is done by me </h3>
   <h4> to my file </h4>
   <h5>this could be the last one</h5>
-  <p> thanks for this </p>
+  <p> thanks </p>
 </body>
 </html>
