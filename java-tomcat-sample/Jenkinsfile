@@ -12,6 +12,13 @@ pipeline {
                 }
             }
         }
+        stage('Deploy artifacts in repository'){
+            steps{
+                build job: 'Deploy The artifact In Artifact Repository'
+
+            }
+            
+        }
         stage('Deploy in Staging Environment'){
             steps{
                 build job: 'Deploy_Application_Staging_Env'
